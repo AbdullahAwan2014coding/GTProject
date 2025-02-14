@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Input with Variable</title>
+
+</head>
+
+<body>
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+
+    <button onclick="displayGreeting()">Say Hi</button>
+
+    <p id="greeting"></p>
+
+
+
+    <script>
+
+        function displayGreeting() {
+
+            let name = document.getElementById("nameInput").value;
+
+            document.getElementById("greeting").textContent = "Hello, " + name + "!";
+
+        }
+
+    </script>
+
+</body>
+
+</html>

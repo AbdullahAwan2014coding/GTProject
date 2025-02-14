@@ -1,0 +1,20 @@
+.countries{
+    background-image: url(Globe2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+}
+body{
+    width: 800px; /* Set your desired width */
+
+    margin: 0 auto; /* Center horizontally */
+}
+img{
+    height: 150px;
+}
+.Pakistan{
+    background-image: url(pakistan.ico);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

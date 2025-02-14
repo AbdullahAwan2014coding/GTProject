@@ -1,0 +1,106 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+    <link rel="icon" href="GTlogo.ico" type="image/x-icon"/>
+  </head>
+<body>
+    <style>
+        button{
+            color: crimson;
+            background-color: aqua;
+        }
+        form{
+            color: rgb(255, 255, 255);
+            background-color: crimson;
+            font-style: italic;
+            background-image:repeating-linear-gradient(130deg,cyan, blue, red 10%) ;
+        }
+        input{
+            color: rgb(255, 255, 255);
+            background-color: red;
+            font-style: italic;
+            font-size: 30px;
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            background-color: crimson;
+            background-image: repeating-linear-gradient(130deg,red 5%, aqua 15%, blue 60%);
+        }
+        h2{
+            color: rgba(253, 0, 51, 0.747);
+            background-color: aqua;
+        }
+    </style>
+    <h1>Making a Sign up Page</h1>
+    <h2 style=" background-color: aqua;">User Registration</h2>
+    <form action="GTProject.html"><label for="name">Full Name:</label>
+    <input type="text" id="name"name="name"placeholder="Enter your full name" required > <br>
+    <label for="email">Email Adress:</label>
+    <input type="text"id="email"name="email"placeholder="Enter your email adress" required> <br>
+    <label for="Password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+    <label for="DOB">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+<br>
+        <label for="age">Age:</label>
+        <input type="number" style="width: 250px;" id="age" min="1" max="120" placeholder="Enter your age" required><br>
+    <h2>Gender</h2>
+    <label><input type="radio" name="gender"value="Male" required>Male</label><br>
+    <label><input type="radio" name="gender"value="Female" required>Female</label><br>
+    <label><input type="radio" name="gender"value="Other required">Other</label><br>
+    <h2><span>Hobbies</span></h2>
+    <label ><input type="checkbox" name="Hobbies" value="Reading">Reading</label><br>
+    <label ><input type="checkbox" name="Hobbies" value="Sports">Sports</label><br>
+    <label ><input type="checkbox" name="Hobbies" value="Music">Music</label><br>
+    <select id="mySelect">
+        <option value="">Country of Origin</option>
+        <option value="option1">U.S.A</option>
+        <option value="option2">U.K</option>
+        <option value="Canada">Canada</option>
+        <option value="option3">Other</option>
+      
+      </select>
+      
+      
+      
+      <div id="extraInput" style="display: none;"> 
+      
+        <label for="extraField">Country of Origin:</label>
+      
+        <input type="text" id="extraField" name="extraField">
+      
+      </div>
+      
+      
+      
+      <script>
+      
+        const selectElement = document.getElementById("mySelect");
+      
+        const extraInput = document.getElementById("extraInput");
+      
+      
+      
+        selectElement.addEventListener("change", function() {
+      
+          if (selectElement.value === "option3") {
+      
+            extraInput.style.display = "block";
+      
+          } else {
+      
+            extraInput.style.display = "none";
+      
+          }
+      
+        });
+      
+      </script><br>
+      <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
