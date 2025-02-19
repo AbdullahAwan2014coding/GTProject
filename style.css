@@ -18,3 +18,6 @@ img{
     background-size: cover;
     background-position: center;
 }
+.US{
+    background-image: url(images/US.ico);
+}
