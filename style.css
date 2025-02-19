@@ -20,4 +20,7 @@ img{
 }
 .US{
     background-image: url(images/US.ico);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
