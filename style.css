@@ -19,8 +19,5 @@ img{
     background-position: center;
 }
 .US{
-    background-image: linear-gradient(100deg,blue, red, white);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(blue, white, red);
 }
