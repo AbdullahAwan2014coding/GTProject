@@ -21,3 +21,9 @@ img{
 .US{
     background-image: linear-gradient(blue, white, red);
 }
+.hi{
+    background-color: rgb(20, 20, 20);
+}
+.img{
+    height: 150;
+}
