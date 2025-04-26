@@ -26,4 +26,6 @@ img{
 }
 .img{
     height: 150;
+    border: white;
+    border-top: 100;
 }
