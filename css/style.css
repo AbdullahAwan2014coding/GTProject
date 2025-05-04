@@ -27,5 +27,16 @@ img{
 .img{
     height: 150;
     border: white;
-    border-top: 100;
+    margin-top: 50px;
+    }
+.bi{
+    background-color: white;
+}
+.one ul li {
+            
+    list-style-type:"🦥";
+    background-color: aqua;
+    border: 2px double
+     red;
+     list-style-position: inside;
 }
