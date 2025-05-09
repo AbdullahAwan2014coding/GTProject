@@ -6,7 +6,9 @@
 }
 body{
     width: 800px; /* Set your desired width */
-
+    width:70%;
+    height:200px;
+    overflow-x:scroll;
     margin: 0 auto; /* Center horizontally */
 }
 img{
@@ -49,4 +51,10 @@ img{
 }
 a{
     text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
 }
