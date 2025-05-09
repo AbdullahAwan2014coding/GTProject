@@ -47,3 +47,6 @@ img{
     overflow-y: hidden;
     overflow-x: scroll;
 }
+a{
+    text-decoration: none;
+}
