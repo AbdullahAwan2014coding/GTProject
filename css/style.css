@@ -40,3 +40,10 @@ img{
      red;
      list-style-position: inside;
 }
+.box{
+    width: 30dvh;
+    height: 30dvh;
+    border: 2px double dodgerblue;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
