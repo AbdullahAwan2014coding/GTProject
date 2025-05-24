@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="title1">Pakistan</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/pakistan.ico" type="image/x-icon">
     <style>
          .Pakistan{
@@ -22,11 +22,6 @@
             font-size: 18px;
             background-color: darkgreen;
          }
-            h1{
-                color: darkgreen;
-                font-size: 50px;
-                border: 5px ridge darkgreen;
-            }
             h2{
                 color: darkgreen;
                 font-size: 30px;
@@ -84,10 +79,6 @@
                 font-size: 18px;
                 border: 5px ridge darkgreen;
             }
-            img{
-                border: 5px ridge darkgreen;
-                border-radius: 10px;
-            }
             hr{
                 border: 2px ridge darkgreen;
                 width: 300px;
@@ -99,15 +90,55 @@
             li{
                 margin: 10px 0;
             }
+            #pakistan{
+                color: darkgreen;
+                font-size: 50px;
+                border: 5px ridge darkgreen;
+                background-color: rgb(255, 255, 255);
+                position: fixed;
+                left: 750px;
+            }
+            #links{
+                color: darkgreen;
+                font-size: 20px;
+                border: 5px ridge darkgreen;
+                background-color: rgb(255, 255, 255);
+                position: fixed;
+                float: right;
+                right: 0;
+                width: 10%;
+                overflow: auto;
+                top: 0px;
+            }
+            audio{
+                display: block;
+                margin: 20px auto;
+                border: 2px ridge darkgreen;
+                background-color: white;
+                
+            }
+            .songs{
+                height: 1px;
+                overflow: auto;
+                width: 10px;
+            }
+
+            image{
+                display: block;
+                margin: 0 auto;
+                border: 5px ridge darkgreen;
+            }
 
     </style>
 </head>
 <body class="Pakistan">
-    <h1 align="center">Pakistan</h1>
+    <h1 id="pakistan" align="center">Pakistan</h1>
     <hr width="150">
     <br>
     <center><img align="center" src="images/pak.png" alt="A photo of the pakistani flag, which has a crescent moon and star in the middle, a green background, and a strip of white to the left" srcset=""></center>
     <br><br>
+    <audio controls>
+        <source src="images/PakistanAnthem.mp3" type="audio/mpeg">Pakistan National Anthem</audio>
     <hr width="150">
     <p align="center"> Welcome to Pakistan!<br>
         Are you someone with roots in Pakistan, a student researching for a project, or just a curious mind <br>
@@ -118,6 +149,14 @@
     everything from its deep historical roots to its dynamic present. Let’s embark on this journey together and <br>
     discover the heart of Pakistan!</p>
     <br><br>
+    <div id="links">
+        <h2>To learn more about pakistan, go to these sites:</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Pakistan" target="_blank">Wikipedia</a></li>
+            <li><a href="https://www.pakistan.gov.pk" target="_blank">Government of Pakistan</a></li>
+            <li><a href="https://www.pakistantoday.com.pk" target="_blank">Pakistan Today</a></li>
+        </ul>
+    </div>
     <h2 align="center">Table of Contents</h2>
     <span><ol align="center">
         <li><a href="#History">History of Pakistan</a></li> <br><br>
@@ -126,6 +165,7 @@
         <li><a href="#Pakistani">Famous Pakistanis</a></li><br><br>
         <li><a href="#religon">Religon and Customs</a></li><br><br>
         <li><a href="#Monument">Monuments of Pakistan</a></li><br><br>
+        <li><a href="#Songs">Songs From Pakistan</a></li> <br><br>
         <li><a href="#Economy">Economy and Jobs of Pakistan</a></li><br><br>
         <li><a href="#WhyToGo">Why you Should Go to Pakistan</a></li><br><br>
         <li><a href="#Food">Food and Drinks of Pakistan</a></li><br><br>
@@ -206,14 +246,14 @@
                 , transl."learned") and widely considered one of the most important and influential Muslim thinkers and <br>
                 Western religious philosophers of the 20th century. To learn more, <a href="https://en.wikipedia.org/wiki/Muhammad_Iqbal" target="_blank">click here</a> <br>
             <img src="images/MI.png" alt=""></li>
-                <br><li><h3>Hafeez Jalandhari:</h3>
+                <br><li id="Hafeez_Jalandhari"><h3>Hafeez Jalandhari:</h3>
                     <hr width="300" >
                         was a Pakistani poet who wrote the lyrics for the National Anthem of Pakistan and the Anthem of Azad <br>
                     Kashmir. He wrote in Urdu and Persian languages and is widely celebrated throughout Pakistan. To learn <br>
                     more, <a href="https://en.wikipedia.org/wiki/Hafeez_Jalandhari">click here.</a> <br>
                     <center><img src="images/Hafeez_Jalandhari.jpg" alt=""></center>
                 </li>
-        </li><h3>Dr. Abdul Qadeer Khan:</h3>
+        <li><h3>Dr. Abdul Qadeer Khan:</h3>
         <hr width="300" ><br>
             was a Pakistani nuclear physicist and metallurgical engineer who is <br>
         colloquially known as the "father of Pakistan's atomic weapons program"<br>
@@ -338,6 +378,293 @@
     </ul>
     <br>
     <br>
+    <h2 align="center" id="Songs">Songs from Pakistan</h2>
+    <hr width="300">
+    <table class="songs" align="center"cellpadding="5" cellspacing="0">
+        <caption>Pakistani Songs</caption>
+        <thead>
+            <tr>
+                <th>Song</th>
+                <th>Author</th>
+                <th>Song in Urdu</th>
+                <th>Song in English</th>
+                <th>Audio Song</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td> Qaumi Taranah(national Anthem)</td>
+                <td> Hafeez Jalandhari</td>
+                <td>Pāk sarzamīn shād bād
+Kishwar-e-hasīn shād bād <br>
+Tu nishān-e-azm-e-āli shān <br>
+Arz-e-Pākistān! <br>
+Markaz-e-yaqīn shād bād <br>
+<br>
+Pāk sarzamīn ka nizām <br>
+Quwwat-e-ukhuwwat-e-awām <br>
+Qaum, mulk, saltanat <br>
+Pāyindah tābindah bād! <br>
+Shād bād manzil-e-murād <br>
+
+Parcam-e-sitārah-o-hilāl <br>
+Rahbar-e-taraqqi-o-kamāl <br>
+Tarjumān-e-māzi, shān-e-hāl <br>
+Jān-e-istiqbāl! <br>
+Sāyah-ye-khudā-ye-zūl-jalāl</td>
+<td>Blessed be the sacred land, <br>
+Happy be the bounteous realm. <br>
+Thou symbol of high resolve, <br>
+O Land of Pakistan! <br>
+Blessed be the citadel of faith. <br>
+<br>
+The order of this sacred land, <br>
+The might of the brotherhood of the people,<br>
+May the nation, the country, and the state,<br>
+Shine in glory everlasting!<br>
+Blessed be the goal of our ambition. <br>
+
+The flag of the crescent and star,<br>
+Leads the way to progress and perfection,<br>
+Interpreter of our past, glory of our present,<br>
+inspiration for our future!<br>
+Shade of God, the Glorious and Mighty.</td>
+<td><audio src="images/National Anthem - Master.mp3" controls></audio></td>
+            </tr> 
+            <tr>
+               <td>Dil Dil Pakistan
+                </td>
+                <td>Vital Signs(Band)</td>
+                <td>aisee zameen aur aasmaan <br>
+in kay siwaa jaanaa kahaan <br>
+parti rahay yeh roshni <br>
+chalta rahay yeh karwaan <br>
+<br>
+dil (dil dil dil) dil pakistan<br>
+jaan jaan pakistan<br>
+<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+<br>
+dil dil say miltay hain to<br>
+payaar ka chehrah banta hai<br>
+(chehrah banta hai)<br>
+pphool ik laree main piroyayn<br>
+to phir sehrah banta hai<br>
+(chehrah banta hai)<br>
+<br>
+dil (dil dil dil) dil pakistan<br>
+jaan jaan pakistan<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+<br>
+aisee zameen aur aasmaan<br>
+in kay siwaa jaanaa kahaan<br>
+parti rahay yeh roshni<br>
+chalta rahay yeh karwaan<br>
+<br>
+dil (dil dil dil) dil pakistan<br>
+jaan jaan pakistan<br>
+dil dil pakistan<br>
+<br>
+ghar apna to sab ko jee<br>
+jaan say payaara lagta hai<br>
+(taara lagta hai)<br>
+ham ko bhi apnay har armaan<br>
+say payaara lagta hai<br>
+(taara lagta hai)<br>
+<br>
+ho…o…o…o<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+dil dil pakistan<br>
+jaan jaan pakistan<br>
+(dil dil dil)<br>
+<br>
+jaan jaan pakistan<br>
+(dil dil dil dil dil dil)</td>
+<td>
+Such a fair land, such a clear sky <br>
+Where else on Earth, where can you find?<br>
+May all this light remain ablaze <br>
+May this caravan be on its way <br>
+ <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+
+When two hearts meet then true love’s face is there <br>
+Face of love is there <br>
+When on a string one puts flowers so fair <br>
+Then a wreath is there <br>
+Face of love is there <br>
+<br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+Such a fair land, such a clear sky <br>
+Where else on Earth, where can you find?<br>
+May all this light remain ablaze <br>
+May this caravan be on its way <br>
+ <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+
+
+
+We love our home more than our own soul <br>
+More than our heart <br>
+It’s our guiding star <br>
+Our home is more dear than our every wish <br>
+More than our heart <br>
+It’s our guiding star <br>
+ <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+My heart is Pakistan <br>
+My soul is Pakistan <br>
+</td>
+            </tr>
+            <tr>
+                <td>Pasoori</td>
+                <td>Ali Sethi and Shae Gill</td>
+                <td>Agg laavaan majboori nu
+Aan-jaan di pasoori nu <br>
+Zehar bane, haan, teri<br>
+Pee jaavaan main poori nu<br>
+Aana si, oh nahin aaya<br>
+Dil baang-baang mera takraaya<br>
+Kaaga bol ke dass jaaye<br>
+Paavaan gheo di choori nu<br>
+Raahvaan 'ch, baanhvaan 'ch ohnu lukaavaan<br>
+Koyi mainu na roke<br>
+Mere dhol, judaaiyaan di tainu khabar kivein hove?<br>
+Aa jaave dil tera, poora vi na hove<br>
+Aah baniye-banaaiyaan di gall-baat kivein hove?<br>
+Aa jaave dil tera, poora vi na hove<br>
+Bhull gayi majboori nu<br>
+Duniya di dastoori nu<br>
+Saath tera hai bathera<br>
+Poora kar zaroori nu<br>
+Aana si, oh nahin aaya<br>
+Raasta na dikhlaaya<br>
+Dil hamaara de sahaara<br>
+Khwaahishaat adhoori nu<br>
+Vaari main jaavaan, main tainu bulaavaan<br>
+Gall saari taan hove<br>
+Mere dhol, judaaiyaan di tainu khabar kivein hove?<br>
+Aa jaave dil tera, poora vi na hove<br>
+Haan, baniye-banaaiyaan di gall-baat kivein hove?<br>
+Aa jaave dil tera, poora vi na hove<br>
+Mere dhol, judaaiyaan di sardaari na hove<br>
+Mere dhol, judaaiyaan di...<br>
+Mere dhol, judaaiyaan di sardaari na hove<br>
+Dildaaraan di, sabbh yaaraan di aazaari na hove<br>
+Dildaaraan di, sabbh yaaraan di aazaari na hove<br>
+Aa, chalein leke tujhe, hain jahaan silsiley<br>
+Tu hai wahin, hai teri kami<br>
+Bana de, saja de, panaah humein<br>
+Bana de, saja de, panaah humein<br>
+Agg laavaan majboori nu<br>
+Aan-jaan di pasoori nu<br>
+Zehar bane, haan, teri<br>
+Pee jaavaan main poori nu<br>
+Raahvaan 'ch, baanhvaan 'ch ohnu lukaavaan<br>
+Koyi mainu na roke<br>
+Mere dhol, judaaiyaan di tainu khabar kivein hove?<br>
+Aa jaaye dil tera, poora vi na hove<br>
+Haan, baniye-banaaiyaan di gall-baat kivein hove?<br>
+Aa jaave dil tera, poora vi na hove<br>
+Poora vi na hove<br>
+Poora vi na hove<br></td>
+<td>
+    Set fire to You Worries <br>
+    To Waiting and To Hurries <br>
+    If Your Love is poison
+    I will Drink it in a Flurry.<br>How Said He'd Come, He Never Did. <br>
+My Heart Lurched and Slid <br>
+The crow speaks and tells <br>
+And Feast on Sweet Supply. <br>
+In the paths, in the arms, I want to hide her <br>
+No One Make me Stop <br>
+My Love How can You Know what Happen when we part.
+I Hope you fall in love, I Hope it breaks your Heart.
+How will the Willing, Communicate
+I Hope you fall in love, I Hope it breaks your Heart.
+I Forgot about my Chains
+And Peoples Refrains
+You are Enough For Me.
+Fulfil my Destiny.
+How Said He'd Come, He Never Did.
+I Could not see the way was Hid.
+My Heart Gives Solace
+To wishes unfulfilled
+I Dot on you , I Call Out You Name
+Lets have it out, For Shame.
+My Love How can You Know what Happen when we part.
+I Hope you fall in love, I Hope it breaks your Heart.
+How will the Willing, Communicate
+I Hope you fall in love, I Hope it breaks your Heart.
+My Love, Dont let This Distance Reign
+My Love what of this Distance
+My Love, Dont let This Distance Reign.
+Dont Let these lovers be in pain
+Dont Let these lovers be in pain
+Come, let's go, taking you along, there are chains of worlds
+You are there, you are lacking
+Create it, decorate it, give us refuge
+Create it, decorate it, give us refuge
+Set fire to You Worries
+To Waiting and To Hurries
+If Your Love is poison
+I will Drink it in a Flurry.
+In the paths, in the arms, I want to hide her
+No One Make me Stop
+chorus
+Mere dhol, judaaiyaan di tainu khabar kivein hove?
+My Love How can You Know what Happen when we part.
+Aa jaaye dil tera, poora vi na hove
+I Hope you fall in love, I Hope it breaks your Heart.
+Haan, baniye-banaaiyaan di gall-baat kivein hove?
+How will the Willing, Communicate
+Aa jaave dil tera, poora vi na hove
+I Hope you fall in love, I Hope it breaks your Heart.
+outro
+Poora vi na hove
+I Hope it breaks your Heart
+Poora vi na hove
+I Hope it breaks your Heart
+</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
     <h2 align="center" id="Economy">Pakistan's Economy and Jobs</h2>
         <hr width="300">
                 <table align="center" border="1" cellpadding="5" cellspacing="0" style="color: darkgreen;">
@@ -346,8 +673,8 @@
                 <tr>
                     <th>Job</th>
                     <th>Description</th>
-                    <th>Salary (PKR)</th>
-                    <th>Salary (USD)</th>
+                    <th>Starting Salary (PKR)</th>
+                    <th>Starting Salary (USD)</th>
                 </tr>
             </thead>
                         <tbody>
@@ -392,7 +719,7 @@
     <ul align="center">
         <li>Even the small mountains are huge, which is good for hikers</li>
         <li>Unbelievable landscapes and breathtaking geography, great for sightseeing</li>
-        <li>Everything is possible in Pakistan, which is actually true, except for <a href="http://127.0.0.1:5500/islam.html">haram</a>/illegal</li>
+        <li>Everything is possible in Pakistan, which is actually true, except for <a href="http://127.0.0.1:5500/images/islam.html" target="_blank">haram</a>/illegal</li>
         <li>Pakistan is safe, and the armed forces will do anything to protect it</li>
         <li>The cultural diversity from one region to the next</li>
         <li>The food is incredible, and you can even find it in the U.S, but still yummy</li>
